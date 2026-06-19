@@ -1,19 +1,17 @@
 {
   "spider": "",
   "lives": [
-    {"name": "CCTV+│Channel 1", "type": 0, "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8", "playerType": 2},
-    {"name": "CCTV+│Channel 2", "type": 0, "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8", "playerType": 2},
+    {"name": "CCTV+│Channel 1 (国际)", "type": 0, "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8", "playerType": 2},
+    {"name": "CCTV+│Channel 2 (国际)", "type": 0, "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8", "playerType": 2},
     {"name": "CGTN│英语新闻", "type": 0, "url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8", "playerType": 2},
     {"name": "CGTN│法语", "type": 0, "url": "https://news.cgtn.com/resource/live/french/cgtn-f.m3u8", "playerType": 2},
-    {"name": "国际│YueChan 50ch", "type": 0, "url": "https://raw.githubusercontent.com/YueChan/Live/main/Global.m3u", "playerType": 2},
+    {"name": "国际│YueChan 50频道", "type": 0, "url": "https://raw.githubusercontent.com/YueChan/Live/main/Global.m3u", "playerType": 2},
     {"name": "美国│本地频道", "type": 0, "url": "https://iptv-org.github.io/iptv/countries/us.m3u", "playerType": 2},
-    {"name": "新闻│国际", "type": 0, "url": "https://iptv-org.github.io/iptv/categories/news.m3u", "playerType": 2}
+    {"name": "新闻│国际台", "type": 0, "url": "https://iptv-org.github.io/iptv/categories/news.m3u", "playerType": 2}
   ],
   "sites": [
-    {"key": "bfzy", "name": "暴风│14.7万部", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1},
-    {"key": "ikunzy", "name": "IKUN│点播", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/", "searchable": 1, "quickSearch": 1},
+    {"key": "ikunzy", "name": "IKUN│点播 (已验证✅)", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/", "searchable": 1, "quickSearch": 1},
     {"key": "DouDou", "name": "豆瓣│全网搜索", "type": 3, "api": "csp_DouDou", "searchable": 1},
-    {"key": "Bili", "name": "B站│合集", "type": 3, "api": "csp_Bili"},
     {"key": "YGP", "name": "预告片│新片速递", "type": 3, "api": "csp_YGP"}
   ]
 }
